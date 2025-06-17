@@ -13,3 +13,5 @@ console.log(score);
 const marks: (string | number)[] = ["A", 89, "B", 67];
 
 console.log(marks);
+
+export {};
