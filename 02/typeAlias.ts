@@ -7,7 +7,7 @@ type UserObjectType = {
   hasWaterBottle?: boolean;
 };
 
-let o1 = {
+let o1: UserObjectType = {
   name: "udayan",
   age: 78,
   id: "#1234",
@@ -24,5 +24,17 @@ function createUser(obj: UserObjectType): {
 let result: object = createUser(o1);
 
 console.log(result);
+
+//type with arrays
+type ArraysType = string[];
+
+const names: ArraysType = [];
+names.push("udayan");
+names.push("rahul");
+names.push("utpal");
+names.push("amrita");
+names.push("sapna");
+
+console.log(names);
 
 export {};

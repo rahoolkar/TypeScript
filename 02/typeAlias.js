@@ -12,3 +12,10 @@ function createUser(obj) {
 }
 var result = createUser(o1);
 console.log(result);
+var names = [];
+names.push("udayan");
+names.push("rahul");
+names.push("utpal");
+names.push("amrita");
+names.push("sapna");
+console.log(names);
