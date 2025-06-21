@@ -15,4 +15,9 @@ type Car = {
 console.log(add<number>(2, 4));
 console.log(takesObject<Car>({ wheels: 3, lights: 8 }));
 
+//generics with arrow functions
+const takeProductArrowFunction = <Type>(pdList: Array<Type>): Type => {
+  return pdList[0];
+};
+
 export {};
