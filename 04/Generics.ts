@@ -20,4 +20,6 @@ const takeProductArrowFunction = <Type>(pdList: Array<Type>): Type => {
   return pdList[0];
 };
 
+console.log(takeProductArrowFunction<number>([1, 2, 4, 4]));
+
 export {};
